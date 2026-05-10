@@ -1,0 +1,695 @@
+[
+  {
+    "id": "trip-1778410618992",
+    "userEmail": "siddheshvikram1@gmail.com",
+    "destination": "Mumbai",
+    "country": "India",
+    "startDate": "May",
+    "endDate": "3 days",
+    "budget": 25000,
+    "travelers": 1,
+    "status": "upcoming",
+    "image": "https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?w=800&q=80",
+    "currency": "INR",
+    "duration": 3,
+    "travelMonth": "May",
+    "origin": "Pune",
+    "tripType": "domestic",
+    "itinerary": {
+      "destination": "Mumbai",
+      "destinations": [
+        "Mumbai"
+      ],
+      "origin": "Pune",
+      "country": "India",
+      "duration": 3,
+      "travelers": 1,
+      "tripType": "domestic",
+      "travelMonth": "May",
+      "totalBudget": 25000,
+      "currency": "INR",
+      "selectedTravelOptionId": "travel-train",
+      "selectedAccommodationId": "hotel-1",
+      "selectedLocalTransportId": "local-metro",
+      "travelOptions": [
+        {
+          "id": "travel-flight",
+          "type": "flight",
+          "provider": "Economy flight",
+          "route": "Pune to Mumbai",
+          "pricePerPerson": 3500,
+          "totalCost": 3500,
+          "duration": "1.5-3 hours",
+          "baggage": "15 kg check-in usually available",
+          "refundable": "Usually partly refundable",
+          "recommended": false,
+          "note": "Estimated fare. Live booking API is required for exact real-time prices."
+        },
+        {
+          "id": "travel-train",
+          "type": "train",
+          "provider": "Indian Railways AC class",
+          "route": "Pune to Mumbai",
+          "pricePerPerson": 600,
+          "totalCost": 600,
+          "duration": "5-12 hours",
+          "baggage": "Flexible baggage",
+          "refundable": "Cancellation rules vary",
+          "recommended": true,
+          "note": "Estimated fare based on distance and typical class pricing."
+        },
+        {
+          "id": "travel-bus",
+          "type": "bus",
+          "provider": "AC sleeper or Volvo bus",
+          "route": "Pune to Mumbai",
+          "pricePerPerson": 500,
+          "totalCost": 500,
+          "duration": "4-10 hours",
+          "baggage": "Limited luggage",
+          "refundable": "Operator rules vary",
+          "recommended": true,
+          "note": "Best for short domestic routes or tighter budgets."
+        }
+      ],
+      "accommodations": [
+        {
+          "id": "hotel-1",
+          "name": "Mumbai Comfort Stay",
+          "area": "Colaba",
+          "costPerNight": 3750,
+          "totalCost": 7500,
+          "rating": "4.2/5",
+          "amenities": [
+            "Wi-Fi",
+            "Breakfast",
+            "Air conditioning"
+          ],
+          "bookingTip": "Choose free cancellation and check recent guest reviews before payment.",
+          "distanceFromCenter": "Central area",
+          "recommended": true
+        },
+        {
+          "id": "hotel-2",
+          "name": "Mumbai Central Hotel",
+          "area": "Bandra",
+          "costPerNight": 3075,
+          "totalCost": 6150,
+          "rating": "4.0/5",
+          "amenities": [
+            "Wi-Fi",
+            "Breakfast",
+            "Air conditioning"
+          ],
+          "bookingTip": "Lower price option; check commute time before booking.",
+          "distanceFromCenter": "15-25 minutes from main sights",
+          "recommended": false
+        },
+        {
+          "id": "hotel-3",
+          "name": "Mumbai Central Hotel",
+          "area": "Andheri",
+          "costPerNight": 4688,
+          "totalCost": 9376,
+          "rating": "4.5/5",
+          "amenities": [
+            "Wi-Fi",
+            "Breakfast",
+            "Airport pickup"
+          ],
+          "bookingTip": "Choose free cancellation and check recent guest reviews before payment.",
+          "distanceFromCenter": "Premium central location",
+          "recommended": false
+        }
+      ],
+      "meals": [
+        {
+          "id": "m1",
+          "mealType": "Breakfast",
+          "restaurantName": "Mumbai local breakfast spot",
+          "dish": "Vada pav",
+          "costPerPerson": 611,
+          "totalCost": 1833,
+          "occurrences": 3,
+          "location": "Near hotel",
+          "tip": "Keep breakfast close to the hotel to start early."
+        },
+        {
+          "id": "m2",
+          "mealType": "Lunch",
+          "restaurantName": "Mumbai local lunch spot",
+          "dish": "Bombay sandwich",
+          "costPerPerson": 611,
+          "totalCost": 1833,
+          "occurrences": 3,
+          "location": "Near sightseeing area",
+          "tip": "Mix one popular restaurant with one local eatery each day."
+        },
+        {
+          "id": "m3",
+          "mealType": "Dinner",
+          "restaurantName": "Mumbai local dinner spot",
+          "dish": "Seafood thali",
+          "costPerPerson": 611,
+          "totalCost": 1833,
+          "occurrences": 3,
+          "location": "Near sightseeing area",
+          "tip": "Mix one popular restaurant with one local eatery each day."
+        }
+      ],
+      "transport": [
+        {
+          "id": "t1",
+          "mode": "Metro, cab and auto mix",
+          "costPerTrip": 95,
+          "estimatedTrips": 12,
+          "totalCost": 1140,
+          "avgTime": "20-45 minutes",
+          "tip": "Use public transport for predictable routes and cabs late at night.",
+          "recommended": true
+        },
+        {
+          "id": "t2",
+          "mode": "Airport or station transfer",
+          "costPerTrip": 399,
+          "estimatedTrips": 2,
+          "totalCost": 798,
+          "avgTime": "45-90 minutes",
+          "tip": "Book transfers early in peak months.",
+          "recommended": false
+        }
+      ],
+      "localTransportOptions": [
+        {
+          "id": "local-metro",
+          "mode": "Metro/local train + short autos",
+          "totalCost": 540,
+          "costPerDay": 180,
+          "comfort": "Medium",
+          "flexibility": "Medium",
+          "recommended": true,
+          "note": "Best value when major sights are connected by public transport."
+        },
+        {
+          "id": "local-taxi",
+          "mode": "Taxi/cab for daily sightseeing",
+          "totalCost": 2700,
+          "costPerDay": 900,
+          "comfort": "High",
+          "flexibility": "High",
+          "recommended": false,
+          "note": "Better for families, late nights, rain, luggage or scattered attractions."
+        },
+        {
+          "id": "local-rental",
+          "mode": "Private car with driver",
+          "totalCost": 5400,
+          "costPerDay": 1800,
+          "comfort": "High",
+          "flexibility": "Very high",
+          "recommended": false,
+          "note": "Useful when public transport is weak or you want day trips."
+        }
+      ],
+      "livePriceStatus": {
+        "source": "Realistic estimates now; API-ready for Amadeus/Skyscanner, hotel APIs and rail providers.",
+        "lastChecked": "2026-05-10T10:55:56.836Z",
+        "confidence": "Medium"
+      },
+      "comparisonPlans": [
+        {
+          "id": "cheap",
+          "name": "Cheapest",
+          "totalCost": 18000,
+          "travelOptionId": "travel-bus",
+          "hotelLevel": "Budget smart stay",
+          "travelTime": "4-10 hours",
+          "comfortScore": 68,
+          "weatherRisk": 62,
+          "summary": "Lowest cost by using cheaper transfers, modest hotels and free/low-cost attractions."
+        },
+        {
+          "id": "comfort",
+          "name": "Comfort",
+          "totalCost": 22500,
+          "travelOptionId": "travel-flight",
+          "hotelLevel": "Central higher-rated stay",
+          "travelTime": "1.5-3 hours",
+          "comfortScore": 88,
+          "weatherRisk": 62,
+          "summary": "Better stay area, easier transfers and fewer tiring route changes."
+        },
+        {
+          "id": "fast",
+          "name": "Fastest",
+          "totalCost": 21500,
+          "travelOptionId": "travel-flight",
+          "hotelLevel": "Transit-friendly stay",
+          "travelTime": "1.5-3 hours",
+          "comfortScore": 78,
+          "weatherRisk": 62,
+          "summary": "Prioritizes low travel time and direct transfers, usually with flight or fast rail."
+        }
+      ],
+      "optimizerSuggestions": [
+        "Switch to AC sleeper or Volvo bus to reduce total travel cost.",
+        "Pick the lowest-cost hotel option and keep Mumbai sightseeing clustered by area.",
+        "Replace one paid attraction with a free local walk or market visit."
+      ],
+      "weatherAwarePlan": {
+        "risk": 62,
+        "summary": "May is workable for sightseeing. Keep outdoor walks early and leave evenings flexible.",
+        "indoorAlternatives": [
+          "Museum or gallery",
+          "Local market",
+          "Food trail",
+          "Cultural show"
+        ]
+      },
+      "safety": {
+        "score": 77,
+        "weatherRisk": 62,
+        "crowdLevel": "Medium",
+        "lateNightRisk": "Medium",
+        "emergency": "India emergency: 112",
+        "nearbyHelp": [
+          "Major hospital near central stay",
+          "Police station in tourist district",
+          "24x7 pharmacy near hotel area"
+        ]
+      },
+      "mapPoints": [
+        {
+          "id": "origin",
+          "type": "origin",
+          "label": "Pune",
+          "area": "Pune",
+          "x": 12,
+          "y": 72
+        },
+        {
+          "id": "destination",
+          "type": "destination",
+          "label": "Mumbai",
+          "area": "Mumbai",
+          "x": 74,
+          "y": 28
+        },
+        {
+          "id": "hotel",
+          "type": "hotel",
+          "label": "Selected hotel area",
+          "area": "Mumbai",
+          "x": 62,
+          "y": 46
+        },
+        {
+          "id": "food",
+          "type": "food",
+          "label": "Food cluster",
+          "area": "Mumbai",
+          "x": 48,
+          "y": 62
+        },
+        {
+          "id": "sight",
+          "type": "attraction",
+          "label": "Sightseeing cluster",
+          "area": "Mumbai",
+          "x": 82,
+          "y": 58
+        }
+      ],
+      "groupVoting": {
+        "shareCode": "TRV-1056",
+        "options": [
+          {
+            "id": "vote-hotel",
+            "label": "Best hotel",
+            "votes": 2
+          },
+          {
+            "id": "vote-food",
+            "label": "Food-first plan",
+            "votes": 1
+          },
+          {
+            "id": "vote-budget",
+            "label": "Save money",
+            "votes": 3
+          }
+        ]
+      },
+      "carbon": {
+        "flightKg": 123,
+        "trainKg": 7,
+        "busKg": 9,
+        "recommendation": "Train is usually the lower-carbon choice for this route."
+      },
+      "exportText": "Traveloop plan: Pune to Mumbai in May. Budget INR 25000.",
+      "attractions": [
+        {
+          "id": "a1",
+          "name": "Gateway of India",
+          "type": "Must-see",
+          "entryFee": 0,
+          "duration": "1-2 hours",
+          "bestTime": "Morning",
+          "location": "Mumbai",
+          "tip": "Go early to avoid queues and heat.",
+          "mustVisit": true
+        },
+        {
+          "id": "a2",
+          "name": "Marine Drive",
+          "type": "Must-see",
+          "entryFee": 750,
+          "duration": "1-2 hours",
+          "bestTime": "Evening",
+          "location": "Mumbai",
+          "tip": "Check opening days before final booking.",
+          "mustVisit": true
+        },
+        {
+          "id": "a3",
+          "name": "Elephanta Caves",
+          "type": "Culture",
+          "entryFee": 750,
+          "duration": "2-3 hours",
+          "bestTime": "Morning",
+          "location": "Mumbai",
+          "tip": "Check opening days before final booking.",
+          "mustVisit": false
+        },
+        {
+          "id": "a4",
+          "name": "Bandra Fort",
+          "type": "Culture",
+          "entryFee": 750,
+          "duration": "2-3 hours",
+          "bestTime": "Evening",
+          "location": "Mumbai",
+          "tip": "Check opening days before final booking.",
+          "mustVisit": false
+        }
+      ],
+      "budgetBreakdown": {
+        "accommodation": 7500,
+        "food": 5499,
+        "transport": 3078,
+        "attractions": 2250,
+        "miscellaneous": 2000,
+        "total": 20327,
+        "remaining": 4673
+      },
+      "suggestions": [
+        "Base yourself near Colaba to reduce daily travel time.",
+        "Carry a government ID and keep train, bus or flight tickets available offline.",
+        "For May, Peak summer in many regions; prefer air-conditioned stays and evening outings."
+      ],
+      "checklist": [
+        "Government ID",
+        "Hotel booking confirmation",
+        "Train, bus or flight tickets",
+        "Emergency cash",
+        "Weather-ready clothes"
+      ],
+      "weatherTip": "Peak summer in many regions; prefer air-conditioned stays and evening outings.",
+      "bestTimeToVisit": "October to March"
+    },
+    "createdAt": "2026-05-10T10:56:58.992Z"
+  },
+  {
+    "id": "trip-1778408669433",
+    "userEmail": "siddheshvikram1@gmail.com",
+    "destination": "Mumbai",
+    "country": "India",
+    "startDate": "June",
+    "endDate": "3 days",
+    "budget": 30000,
+    "travelers": 1,
+    "status": "upcoming",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=800&q=80",
+    "currency": "INR",
+    "duration": 3,
+    "travelMonth": "June",
+    "origin": "Delhi",
+    "tripType": "domestic",
+    "itinerary": {
+      "destination": "Mumbai",
+      "destinations": [
+        "Mumbai"
+      ],
+      "origin": "Delhi",
+      "country": "India",
+      "duration": 3,
+      "travelers": 1,
+      "tripType": "domestic",
+      "travelMonth": "June",
+      "totalBudget": 30000,
+      "currency": "INR",
+      "selectedTravelOptionId": "travel-train",
+      "selectedAccommodationId": "hotel-1",
+      "selectedLocalTransportId": "local-metro",
+      "travelOptions": [
+        {
+          "id": "travel-flight",
+          "type": "flight",
+          "provider": "IndiGo",
+          "route": "Delhi to Mumbai",
+          "pricePerPerson": 8100,
+          "totalCost": 8100,
+          "duration": "1.5-2 hours",
+          "baggage": "15 kg check‑in",
+          "refundable": "Partly refundable",
+          "recommended": true,
+          "note": "Estimated fare; actual price may vary."
+        },
+        {
+          "id": "travel-train",
+          "type": "train",
+          "provider": "Shatabdi Express",
+          "route": "Delhi to Mumbai",
+          "pricePerPerson": 1800,
+          "totalCost": 1800,
+          "duration": "14-16 hours",
+          "baggage": "Flexible",
+          "refundable": "Cancellation rules apply",
+          "recommended": false,
+          "note": "AC 2 tier; comfortable for long haul."
+        },
+        {
+          "id": "travel-bus",
+          "type": "bus",
+          "provider": "RedBus Volvo",
+          "route": "Delhi to Mumbai",
+          "pricePerPerson": 1200,
+          "totalCost": 1200,
+          "duration": "Overnight",
+          "baggage": "Limited",
+          "refundable": "Operator rules",
+          "recommended": false,
+          "note": "Best for tight budgets."
+        }
+      ],
+      "accommodations": [
+        {
+          "id": "hotel-1",
+          "name": "Trident, Colaba",
+          "area": "Colaba",
+          "costPerNight": 4500,
+          "totalCost": 9000,
+          "rating": "4.5/5",
+          "amenities": [
+            "Wi‑Fi",
+            "Breakfast",
+            "Air conditioning"
+          ],
+          "bookingTip": "Choose free cancellation; read recent reviews.",
+          "distanceFromCenter": "Central",
+          "recommended": true
+        },
+        {
+          "id": "hotel-2",
+          "name": "The Oberoi, Bandra",
+          "area": "Bandra",
+          "costPerNight": 3700,
+          "totalCost": 7400,
+          "rating": "4.7/5",
+          "amenities": [
+            "Wi‑Fi",
+            "Breakfast",
+            "Pool"
+          ],
+          "bookingTip": "Check commute time; early booking discounts.",
+          "distanceFromCenter": "15‑20 min",
+          "recommended": false
+        },
+        {
+          "id": "hotel-3",
+          "name": "The Gateway Hotel, Andheri",
+          "area": "Andheri",
+          "costPerNight": 5600,
+          "totalCost": 11200,
+          "rating": "4.3/5",
+          "amenities": [
+            "Wi‑Fi",
+            "Breakfast",
+            "Airport pickup"
+          ],
+          "bookingTip": "Free cancellation; verify recent reviews.",
+          "distanceFromCenter": "Premium",
+          "recommended": false
+        }
+      ],
+      "meals": [
+        {
+          "id": "m2",
+          "mealType": "Lunch",
+          "restaurantName": "Bademiya",
+          "dish": "Bombay Sandwich",
+          "costPerPerson": 700,
+          "totalCost": 2100,
+          "occurrences": 3,
+          "location": "Near sightseeing",
+          "tip": "Try local street food."
+        },
+        {
+          "id": "m3",
+          "mealType": "Dinner",
+          "restaurantName": "Gajalee",
+          "dish": "Seafood Thali",
+          "costPerPerson": 900,
+          "totalCost": 2700,
+          "occurrences": 3,
+          "location": "Near sights",
+          "tip": "Enjoy fresh seafood."
+        }
+      ],
+      "transport": [
+        {
+          "id": "t1",
+          "mode": "Metro + Cab",
+          "costPerTrip": 400,
+          "estimatedTrips": 12,
+          "totalCost": 4800,
+          "avgTime": "20‑45 min",
+          "tip": "Use metro for main routes; cab for late nights.",
+          "recommended": true
+        },
+        {
+          "id": "t2",
+          "mode": "Airport transfer",
+          "costPerTrip": 1900,
+          "estimatedTrips": 2,
+          "totalCost": 3800,
+          "avgTime": "45‑90 min",
+          "tip": "Book early during peak season.",
+          "recommended": false
+        }
+      ],
+      "localTransportOptions": [
+        {
+          "id": "local-metro",
+          "mode": "Metro + Auto",
+          "totalCost": 540,
+          "costPerDay": 180,
+          "comfort": "Medium",
+          "flexibility": "Medium",
+          "recommended": true,
+          "note": "Best value for connected sights."
+        },
+        {
+          "id": "local-taxi",
+          "mode": "Taxi/cab",
+          "totalCost": 2700,
+          "costPerDay": 900,
+          "comfort": "High",
+          "flexibility": "High",
+          "recommended": false,
+          "note": "Convenient for scattered attractions."
+        },
+        {
+          "id": "local-rental",
+          "mode": "Private car",
+          "totalCost": 5400,
+          "costPerDay": 1800,
+          "comfort": "High",
+          "flexibility": "Very high",
+          "recommended": false,
+          "note": "Ideal for day trips."
+        }
+      ],
+      "attractions": [
+        {
+          "id": "a1",
+          "name": "Gateway of India",
+          "type": "Must‑see",
+          "entryFee": 0,
+          "duration": "1‑2 hrs",
+          "bestTime": "Morning",
+          "location": "Colaba",
+          "tip": "Arrive early to avoid crowds.",
+          "mustVisit": true
+        },
+        {
+          "id": "a2",
+          "name": "Marine Drive",
+          "type": "Must‑see",
+          "entryFee": 0,
+          "duration": "1‑2 hrs",
+          "bestTime": "Evening",
+          "location": "Marine Drive",
+          "tip": "Stroll along the promenade.",
+          "mustVisit": true
+        },
+        {
+          "id": "a3",
+          "name": "Elephanta Caves",
+          "type": "Culture",
+          "entryFee": 900,
+          "duration": "2‑3 hrs",
+          "bestTime": "Morning",
+          "location": "Elephanta Island",
+          "tip": "Take ferry from Gateway of India.",
+          "mustVisit": false
+        },
+        {
+          "id": "a4",
+          "name": "Bandra Fort",
+          "type": "Culture",
+          "entryFee": 0,
+          "duration": "1‑2 hrs",
+          "bestTime": "Evening",
+          "location": "Bandra",
+          "tip": "Explore local markets.",
+          "mustVisit": false
+        }
+      ],
+      "budgetBreakdown": {
+        "accommodation": 9000,
+        "food": 4800,
+        "transport": 10940,
+        "attractions": 900,
+        "miscellaneous": 2400,
+        "total": 28040,
+        "remaining": 1960
+      },
+      "suggestions": [
+        "Stay near Colaba to minimize commute.",
+        "Carry ID and keep tickets handy.",
+        "Monsoon season in June; pack rain gear."
+      ],
+      "checklist": [
+        "Government ID",
+        "Hotel booking confirmation",
+        "Transport tickets",
+        "Emergency cash",
+        "Rain‑proof clothing"
+      ],
+      "weatherTip": "June marks the start of monsoon; expect heavy showers and high humidity.",
+      "bestTimeToVisit": "October to March"
+    },
+    "createdAt": "2026-05-10T10:24:29.433Z"
+  }
+]
